@@ -19,6 +19,12 @@ El script Regresionlineal (1).R
 3. Cálculo manual de los parámetros $\beta_0$ y $\beta_1$.
 4. Matriz de desviaciones, residuos ($e_i$) y varianzas.
 5. Construcción manual de la *Tabla ANOVA* (SCT, SCR, SCE, estadístico F y p-valor).
+---
+## Interpretación Econométrica
+
+* *Intercepto ($\beta_0 = 5$):* Es el valor estimado de la Tasa de Ahorro ($Y$) cuando la Tasa de Interés ($X$) es cero.
+* *Pendiente ($\beta_1 = 2.308$):* Por cada aumento de 1 unidad (o punto porcentual) en la Tasa de Interés, la Tasa de Ahorro se incrementa en promedio 2.308 unidades.
+* *Coeficiente de Determinación ($R^2 = 0.985$):* El 98.5% de la variabilidad en la Tasa de Ahorro es explicada por la Tasa de Interés a través del modelo.
 
 ---
 Desarrollado en RStudio con control de versiones en Git y GitHub.
